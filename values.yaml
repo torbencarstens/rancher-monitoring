@@ -1,0 +1,5 @@
+rancher-monitoring:
+  namespaceOverride: monitoring
+  prometheus-adapter:
+    prometheus:
+      url: http://rancher-monitoring-prometheus.monitoring.svc
