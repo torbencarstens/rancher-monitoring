@@ -1,0 +1,10 @@
+apiVersion: v2
+name: rancher-monitoring
+description: deploy rancher-monitoring
+type: application
+version: 0.1.0
+
+dependencies:
+  - name: rancher-monitoring
+    repository: https://charts.rancher.io
+    version: 102.0.1+up40.1.2
